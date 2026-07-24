@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.cointracker.io/
+notes: >-
+  CoinTracker operates a public Atlassian Statuspage instance. No public
+  versioning policy, deprecation policy, or RFC 8594 Sunset/Deprecation header
+  documentation was discoverable — CoinTracker's HTTP API is enterprise/partner
+  gated and its developer documentation bot-blocks automated access, so those
+  fields are recorded as unknown rather than absent.
+status_page: https://status.cointracker.io/
+status_page_provider: Atlassian Statuspage
+status_components:
+  - Web
+  - Website
+uptime_90d: "99.99%"
+versioning:
+  scheme: unknown
+  docs: null
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []

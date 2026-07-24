@@ -1,0 +1,48 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/cointracker
+notes: >-
+  First-party CoinTracker packages published to npm under the @cointracker scope.
+  @cointracker/tax-kit is the developer-facing SDK for supplying cost-basis data
+  (embeds via cross-window messaging, deps post-robot + zustand). The remaining
+  @cointracker/* packages are CoinTracker's internal design system. No first-party
+  package was found on PyPI, RubyGems, Maven Central, NuGet, crates.io, Packagist,
+  or pkg.go.dev. CoinTracker's HTTP API is enterprise/partner-gated and publishes
+  no public server-side SDK.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@cointracker/tax-kit"
+    url: https://www.npmjs.com/package/@cointracker/tax-kit
+    install: npm install @cointracker/tax-kit
+    version: 2.4.0
+    repository: https://github.com/coin-tracker/client-apps
+    description: CoinTracker SDK for supplying cost basis data
+    author: CoinTracker
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@cointracker/base-ui"
+    url: https://www.npmjs.com/package/@cointracker/base-ui
+    install: npm install @cointracker/base-ui
+    version: 1.0.16
+    description: Official design system package for CoinTracker's core UI components
+    author: CoinTracker
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@cointracker/themes"
+    url: https://www.npmjs.com/package/@cointracker/themes
+    install: npm install @cointracker/themes
+    version: 1.0.4
+    description: Brand-specific design tokens and color palettes for CoinTracker applications
+    author: CoinTracker
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@cointracker/tailwind-config"
+    url: https://www.npmjs.com/package/@cointracker/tailwind-config
+    install: npm install @cointracker/tailwind-config
+    description: Tailwind contract layer consumed by CoinTracker apps and themes
+    author: CoinTracker
+    official: true

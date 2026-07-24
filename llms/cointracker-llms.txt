@@ -1,0 +1,24 @@
+# CoinTracker
+
+> CoinTracker is a cryptocurrency portfolio tracker and crypto tax software that syncs wallets and exchanges to calculate cost basis, capital gains, and generate tax reports. Its developer surface is limited to a first-party npm SDK and partner/enterprise integrations; the HTTP API is enterprise/partner-gated and not self-serve documented publicly.
+
+## Company
+- Website: https://www.cointracker.io/
+- Status page: https://status.cointracker.io/ (Atlassian Statuspage)
+- GitHub organization: https://github.com/coin-tracker
+
+## Packages / SDKs
+- @cointracker/tax-kit (npm) — CoinTracker SDK for supplying cost basis data: https://www.npmjs.com/package/@cointracker/tax-kit
+- @cointracker/base-ui (npm) — CoinTracker core UI design system: https://www.npmjs.com/package/@cointracker/base-ui
+- @cointracker/themes (npm) — CoinTracker brand design tokens: https://www.npmjs.com/package/@cointracker/themes
+- @cointracker/tailwind-config (npm): https://www.npmjs.com/package/@cointracker/tailwind-config
+
+## API Evangelist artifacts
+- Packages: packages/cointracker-packages.yml
+- Lifecycle / status page: lifecycle/cointracker-lifecycle.yml
+- Domain security (probed): security/cointracker-domain-security.yml
+
+## Notes
+- No public OpenAPI/AsyncAPI/GraphQL specification was discoverable.
+- No public MCP server, hosted or remote, was found.
+- CoinTracker's marketing/docs site (www.cointracker.io) enforces bot protection (HTTP 403 to automated clients), which limited discovery of pricing, documentation, blog, and .well-known surfaces.

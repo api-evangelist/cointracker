@@ -1,8 +1,29 @@
 aid: cointracker
 name: CoinTracker
-description: 'CoinTracker is a company surfaced as a portfolio company of accel, general-catalyst, homebrew,
-  initialized-capital, kindred-ventures and added to the API Evangelist network as a stub for enrichment.
-  Sector: crypto. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  CoinTracker is a cryptocurrency portfolio tracker and crypto tax software that
+  connects a user's exchange accounts and blockchain wallets to automatically
+  track holdings, calculate cost basis and capital gains, and generate tax
+  reports and IRS forms. It supports a large catalog of exchanges, wallets, and
+  cryptocurrencies, and offers tax-loss harvesting, performance tracking, and
+  integrations with consumer tax-filing products. For developers and partners,
+  CoinTracker publishes a first-party JavaScript SDK (@cointracker/tax-kit) for
+  supplying cost-basis data; its core HTTP API is offered through enterprise and
+  partner integrations rather than a self-serve public developer program. This
+  profile was surfaced as a VC-portfolio lead and enriched by the API Evangelist
+  pipeline from publicly discoverable surfaces (npm, GitHub, status page, DNS/TLS).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/39571539?v=4
 url: https://raw.githubusercontent.com/api-evangelist/cointracker/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,10 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto
+- Cryptocurrency
+- Tax
+- Portfolio Tracking
+- Fintech
+- Accounting
+- Blockchain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.cointracker.io/
+- type: GitHubOrganization
+  url: https://github.com/coin-tracker
+- type: StatusPage
+  url: https://status.cointracker.io/
+- type: Packages
+  url: packages/cointracker-packages.yml
+- type: SDKs
+  url: packages/cointracker-packages.yml
+- type: Lifecycle
+  url: lifecycle/cointracker-lifecycle.yml
+- type: DomainSecurity
+  url: security/cointracker-domain-security.yml
+- type: LLMsTxt
+  url: llms/cointracker-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
