@@ -12,6 +12,17 @@ description: >-
   partner integrations rather than a self-serve public developer program. This
   profile was surfaced as a VC-portfolio lead and enriched by the API Evangelist
   pipeline from publicly discoverable surfaces (npm, GitHub, status page, DNS/TLS).
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
